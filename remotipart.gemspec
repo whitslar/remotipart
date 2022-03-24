@@ -13,11 +13,11 @@ Gem::Specification.new do |s|
   s.description = 'This gem augments the native Rails jQuery UJS remote form function enabling asynchronous file uploads with little to no modification to your application.'
   s.license     = 'MIT'
 
-  s.required_ruby_version = '>= 2.6.0'
+#   s.required_ruby_version = '>= 2.6.0'
 
   s.files = `git ls-files`.split("\n")
 
-  s.add_runtime_dependency 'rails', '>= 5.2'
+#   s.add_runtime_dependency 'rails', '>= 5.2'
   s.add_runtime_dependency 'zeitwerk'
 
   s.add_development_dependency 'appraisal'
